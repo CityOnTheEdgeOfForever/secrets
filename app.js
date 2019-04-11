@@ -19,7 +19,7 @@ app.set('view engine', 'ejs');
 
 const dbName = 'userDB';
 const url1 = "mongodb://localhost:27017/"; //connect to local mongodb
-const url2 = "mongodb+srv://admin-mj:Test123@cluster0-kou5b.mongodb.net/"; //connecto mongodb Atlas
+
 const url3 = url1 + dbName;
 
 mongoose.connect(url3, {
